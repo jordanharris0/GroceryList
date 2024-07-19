@@ -4,7 +4,7 @@
   background-color: lightblue;
   color: black;
   display: block;
-  border: 10px solid black;
+  border: 6px solid black;
   padding: 30px;
   font-size: 50px;
 }
@@ -21,8 +21,9 @@
   width: 200px;
   padding: 10px;
 }
+/* External Freezer List Style */
 .freezer {
-  background-color: antiquewhite;
+  background-color: lightgrey;
   border: 2px solid;
   display: inline-block;
   padding: 25px;
