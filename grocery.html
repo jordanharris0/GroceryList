@@ -5,10 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery List</title>
     <link rel="stylesheet" href="grocery.css" />
+
+    <!--Internal Pantry List Style-->
+    <style>
+      .pantry {
+        background-color: antiquewhite;
+        border: 2px solid;
+        display: inline-block;
+        padding: 25px;
+        margin: 10px;
+      }
+    </style>
   </head>
+
   <body>
+    <!--Header-->
     <header>
-      <h1>My Very Organized Grocery List</h1>
+      <h1 id="heading">My Very Organized Grocery List</h1>
     </header>
+
+    <!--Subheading for lists-->
+    <h2 id="PANTRY">PANTRY ITEMS</h2>
+
+    <!--Pantry List-->
+    <div class="pantry">
+      <h3>CANNED</h3>
+      <ul>
+        <li>Corn</li>
+        <li>Tuna</li>
+        <li>Green Beans</li>
+        <li>Beans</li>
+      </ul>
+    </div>
+
+    <div class="pantry">
+      <h3>DRY GOODS</h3>
+      <ul>
+        <li>Rice</li>
+        <li>Lentils</li>
+        <li>Oats</li>
+        <li>Pancake Mix</li>
+      </ul>
+    </div>
+
+    <!--Pantry Image-->
+    <div class="pantry">
+      <!--off centered why? makes no sense-->
+      <img src="../GroceryList/images/pantry.jfif" alt="pantry items" />
+    </div>
+
+    <!--Subheading for lists-->
+    <h2 id="FREEZER">FREEZER ITEMS</h2>
+
+    <!--Freezer Lists-->
+    <div class="freezer">
+      <h3>VEGGIES</h3>
+
+      <!--Interal style-->
+      <ul style="list-style: number">
+        <li>Broccoli</li>
+        <li>Carrots</li>
+        <li>Cauliflower</li>
+        <li>Bell Peppers</li>
+      </ul>
+    </div>
+
+    <div class="freezer">
+      <h3>SNACKS</h3>
+
+      <!--Interal style-->
+      <ul style="list-style: number">
+        <li>Chicken Nuggets</li>
+        <li>Hot Pockets</li>
+        <li>Fries</li>
+        <li>Tator Tots</li>
+      </ul>
+    </div>
+
+    <div class="freezer">
+      <!--off centered why? makes no sense-->
+      <img src="../GroceryList/images/frozen.jfif" alt="freezer items" />
+    </div>
   </body>
 </html>
