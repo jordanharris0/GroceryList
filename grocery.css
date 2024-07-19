@@ -2,9 +2,9 @@
 #heading {
   text-align: center;
   background-color: lightblue;
-  color: black;
+  color: black; /* Heaser Text Color */
   display: block;
-  border: 6px solid black;
+  border: 10px solid black;
   padding: 30px;
   font-size: 50px;
 }
@@ -12,20 +12,25 @@
 #PANTRY {
   background-color: lightblue;
   border: 1px solid;
-  width: 180px;
+  width: 365px;
   padding: 10px;
 }
 #FREEZER {
   background-color: lightblue;
   border: 1px solid;
-  width: 200px;
+  width: 391px;
   padding: 10px;
 }
-/* External Freezer List Style */
+/* External Freezer Style*/
 .freezer {
   background-color: lightgrey;
   border: 2px solid;
   display: inline-block;
   padding: 25px;
   margin: 10px;
+}
+/*Image Style*/
+img {
+  display: inline-block;
+  width: 191px;
 }
