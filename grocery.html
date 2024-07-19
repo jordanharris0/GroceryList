@@ -8,12 +8,11 @@
 
     <!--Internal Pantry List Style-->
     <style>
-      .pantry {
-        background-color: lightgray;
-        border: 2px solid;
-        display: inline-block;
-        padding: 25px;
-        margin: 10px;
+      #FREEZER {
+        background-color: lightblue;
+        border: 1px solid;
+        width: 391px;
+        padding: 10px;
       }
     </style>
   </head>
@@ -27,62 +26,66 @@
     <!--Subheading for lists-->
     <h2 id="PANTRY">PANTRY ITEMS</h2>
 
-    <!--Pantry List-->
-    <div class="pantry">
-      <h3>CANNED</h3>
-      <ul>
-        <li>Corn</li>
-        <li>Tuna</li>
-        <li>Green Beans</li>
-        <li>Beans</li>
-      </ul>
-    </div>
+    <div class="container">
+      <!--Pantry List-->
+      <div class="card">
+        <h3>CANNED</h3>
+        <ul>
+          <li>Corn</li>
+          <li>Tuna</li>
+          <li>Green Beans</li>
+          <li>Beans</li>
+        </ul>
+      </div>
 
-    <div class="pantry">
-      <h3>DRY GOODS</h3>
-      <ul>
-        <li>Rice</li>
-        <li>Lentils</li>
-        <li>Oats</li>
-        <li>Pancake Mix</li>
-      </ul>
-    </div>
+      <div class="card">
+        <h3>DRY GOODS</h3>
+        <ul>
+          <li>Rice</li>
+          <li>Lentils</li>
+          <li>Oats</li>
+          <li>Pancake Mix</li>
+        </ul>
+      </div>
 
-    <!--Pantry Image-->
-    <div class="pantry">
-      <img src="../GroceryList/images/pantry.jfif" alt="pantry items" />
+      <!--Pantry Image-->
+      <div class="card image">
+        <img src="../GroceryList/images/pantry.jfif" alt="pantry items" />
+      </div>
     </div>
 
     <!--Subheading for lists-->
     <h2 id="FREEZER">FREEZER ITEMS</h2>
 
     <!--Freezer Lists-->
-    <div class="freezer">
-      <h3>VEGGIES</h3>
+    <div class="container">
+      <div class="card">
+        <h3>VEGGIES</h3>
 
-      <!--Inline style-->
-      <ul style="list-style: number">
-        <li>Broccoli</li>
-        <li>Carrots</li>
-        <li>Cauliflower</li>
-        <li>Bell Peppers</li>
-      </ul>
-    </div>
+        <!--Inline style-->
+        <ul style="list-style: number">
+          <li>Broccoli</li>
+          <li>Carrots</li>
+          <li>Cauliflower</li>
+          <li>Bell Peppers</li>
+        </ul>
+      </div>
 
-    <div class="freezer">
-      <h3>SNACKS</h3>
+      <div class="card">
+        <h3>SNACKS</h3>
 
-      <!--Inline style-->
-      <ul style="list-style: number">
-        <li>Chicken Nuggets</li>
-        <li>Hot Pockets</li>
-        <li>Fries</li>
-        <li>Tator Tots</li>
-      </ul>
-    </div>
+        <!--Inline style-->
+        <ul style="list-style: number">
+          <li>Chicken Nuggets</li>
+          <li>Hot Pockets</li>
+          <li>Fries</li>
+          <li>Tator Tots</li>
+        </ul>
+      </div>
 
-    <div id="img2" class="freezer">
-      <img src="../GroceryList/images/frozen.jfif" alt="freezer items" />
+      <div class="card image">
+        <img src="../GroceryList/images/frozen.jfif" alt="freezer items" />
+      </div>
     </div>
   </body>
 </html>
